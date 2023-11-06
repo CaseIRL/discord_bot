@@ -1,0 +1,10 @@
+{
+    "client_id": "BOT CLIENT ID HERE",
+    "guild_id": "SERVER GUILD ID HERE",
+    "token": "BOT TOKEN HERE",
+    "thumbnail": "BOT THUMBNAIL HERE",
+    "footer_text": "BOT FOOTER TEXT HERE",
+    "footer_icon": "BOT FOOTER ICON HERE",
+    "clear_pool_on_dc": true,
+    "save_ticket_transcripts_on_close": true
+}

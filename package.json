@@ -1,0 +1,15 @@
+{
+  "name": "discord_bot",
+  "version": "0.0.1",
+  "description": "A custom Discord bot for server management and community engagement, featuring ticketing, giveaways, polls, reminders, and role reactions.",
+  "scripts": {
+    "start": "node script/bot.js"
+  },
+  "keywords": [ "discord", "discord-bot", "community", "management", "ticketing", "giveaways", "polls", "reminders", "role-management" ],
+  "author": "CaseIRL",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "mysql2": "^3.6.2"
+  }
+}

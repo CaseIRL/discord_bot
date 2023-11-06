@@ -1,0 +1,125 @@
+{
+    "rules": {
+        "title": "SERVER RULES",
+        "description": "Welcome to our community!\n\nTo ensure a harmonious and productive environment, we ask all members to adhere to the following guidelines...",
+        "colour": "5098434",
+        "fields": [
+            { "name": "▬▬▬▬▬▬▬▬▬▬▬▬", "value": "\u200B" },
+            { "name": "**Rule 1**", "value": "\nNSFW or obscene content, including nudity, extreme violence, or any content deemed inappropriate, is strictly prohibited." },
+            { "name": "**Rule 2**", "value": "\nToxic behaviour, such as bullying, instigating conflicts, or any other negative actions, will not be tolerated." },
+            { "name": "**Rule 3**", "value": "\nEveryone deserves respect.\nHarassment, sexism, racism, or hate speech in any form is unacceptable." },
+            { "name": "**Rule 4**", "value": "\nDiscrimination based on gender, race, religion, sexuality, or political beliefs is strictly forbidden." },
+            { "name": "**Rule 5**", "value": "\nDo not direct message, tag, or pester the BOII | Development staff.\nIf assistance is required, please open a ticket." },
+            { "name": "**Rule 6**", "value": "\nSpamming in chats or channels, whether through messages, reactions, emojis, or gifs, is not permitted." },
+            { "name": "**Rule 7**", "value": "\nUse language responsibly. While occasional swearing is acceptable, refrain from excessive or offensive swearing." },
+            { "name": "**Rule 8**", "value": "\nGuard your personal information and respect the privacy of others.\nSharing or requesting personal details without consent is prohibited." },
+            { "name": "**Rule 9**", "value": "\nImpersonation of staff members or fellow community members will result in immediate action." },
+            { "name": "**Rule 10**", "value": "\nLeaking or unauthorized distribution of community assets, content, or confidential information is a severe violation and will result in stringent consequences." },
+            { "name": "**Rule 11**", "value": "\nMembers are requested not to DM others for work-related requests or promotions without prior consent." },
+            { "name": "**Rule 12**", "value": "\nAlways adhere to platform-specific guidelines and regulations." },
+            { "name": "**Rule 13**", "value": "\nIf you wish to promote or share external content, seek permission from the staff beforehand." },
+            { "name": "**Rule 14**", "value": "\nAdherence to these guidelines is crucial for community harmony.\nTo access the server, press ✅ below." }
+        ],
+        "thumbnail": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png",
+        "image": "https://media.discordapp.net/attachments/1170906290151768075/1170906858538668102/boii_masc_rules.png",
+        "timestamp": true,
+        "footer": {
+            "text": "© - BOII | Development",
+            "iconURL": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png"
+        }
+    },
+    "no_participants": {
+        "title": "Giveaway Ended!",
+        "description": "Unfortunately, no one participated in the giveaway.",
+        "colour": "5098434",
+        "thumbnail": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png",
+        "image": "https://media.discordapp.net/attachments/1170906290151768075/1171092525910601880/boii_masc_no_parti.png",
+        "timestamp": true,
+        "footer": {
+            "text": "© - BOII | Development",
+            "iconURL": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png"
+        }
+    },
+    "ticket": {
+        "title": "Support Tickets", 
+        "description": "Click on one of the buttons below to open a support ticket.\n\nYou are required to fill in a pop-up form prior to the ticket being opened.\nPlease fill this out in as much detail as possible as it will help to speed up the help we can provide.\n\nOur support hours are as follows:\n\n**Monday - Friday: 10AM - 10PM (GMT)**\n\nPlease be aware if you open a ticket outside of our support hours there may be a slight wait, apologies but we are humans too, we cannot be here 24/7 unfortunately.\n\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n",
+        "colour": "5098434",
+        "categories": {
+            "resource": "1171165112153952306",
+            "development": "1171165167170621440",
+            "server": "1171165258149285958"
+        },
+        "fields": [
+            {
+                "emoji": "📄",
+                "name": "Resource",
+                "value": "For any resource relevant queries please use this ticket option.",
+                "modal_fields": [
+                    {
+                        "label": "Resource Name",
+                        "placeholder": "Enter the resource name here...",
+                        "required": true,
+                        "style": "short"
+                    },
+                    {
+                        "label": "Resource Type",
+                        "placeholder": "Enter the type of resource...",
+                        "required": true,
+                        "style": "short"
+                    },
+                    {
+                        "label": "Resource Issue",
+                        "placeholder": "Describe your issue with the resource...",
+                        "required": true,
+                        "style": "paragraph"
+                    },
+                    {
+                        "label": "Impact",
+                        "placeholder": "Describe the impact of this issue...",
+                        "required": false,
+                        "style": "paragraph"
+                    },
+                    {
+                        "label": "Urgency",
+                        "placeholder": "How urgent is this issue?",
+                        "required": true,
+                        "style": "short"
+                    }
+                ]
+            },
+            {
+                "emoji": "🔧",
+                "name": "Development",
+                "value": "For any developer relevant queries please use this ticket option.",
+                "modal_fields": [
+                    {
+                        "label": "Bug Description",
+                        "placeholder": "Describe the bug in detail...",
+                        "required": true
+                    }
+                ]
+            },
+            {
+                "emoji": "🛠️",
+                "name": "Server",
+                "value": "For any server relevant queries please use this ticket option.",
+                "modal_fields": [
+                    {
+                        "label": "Server Issue",
+                        "placeholder": "What issue are you experiencing with the server?",
+                        "required": true
+                    }
+                ]
+            }
+        ],
+        "thumbnail": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png",
+        "image": "https://media.discordapp.net/attachments/1170906290151768075/1170906841513984091/boii_masc_tickets.png",
+        "timestamp": true,
+        "footer": {
+            "text": "© - BOII | Development",
+            "iconURL": "https://media.discordapp.net/attachments/1170906290151768075/1170906415657930863/logo.png"
+        }
+    }
+    
+}
+  

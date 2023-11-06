@@ -1,0 +1,125 @@
+[
+    {
+        "name": "rules",
+        "description": "Display server rules!",
+        "roles": ["1155177883233439744"]
+    },
+    {
+        "name": "clear",
+        "description": "Delete a specified number of messages from the channel",
+        "roles": ["1155177883233439744"],
+        "options": [
+            {
+                "name": "amount",
+                "type": 4,
+                "description": "Number of messages to delete",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "giveaway",
+        "description": "Start a new giveaway!",
+        "roles": ["1155177883233439744"],
+        "options": [
+            {
+                "name": "title",
+                "type": 3,
+                "description": "Title of the giveaway",
+                "required": true
+            },
+            {
+                "name": "description",
+                "type": 3,
+                "description": "Description of the giveaway",
+                "required": true
+            },
+            {
+                "name": "fields",
+                "type": 3,
+                "description": "Fields for the giveaway embed, separated by commas",
+                "required": true
+            },
+            {
+                "name": "winners",
+                "type": 4,
+                "description": "Number of winners for the giveaway",
+                "required": true
+            },
+            {
+                "name": "duration",
+                "type": 3,
+                "description": "Duration of the giveaway (e.g., 10s = 10seconds, 10m = 10mins, 10h = 10hours, 10d = 10days)",
+                "required": true
+            },
+            {
+                "name": "giveaway_image",
+                "type": 3,
+                "description": "Image for the giveaway embed (if none is specified, the default will be used)",
+                "required": false
+            },
+            {
+                "name": "winners_image",
+                "type": 3,
+                "description": "Image for the winners embed (if none is specified, the default will be used)",
+                "required": false
+            }
+            
+        ]
+    },
+    {
+        "name": "poll",
+        "description": "Create a new poll!",
+        "roles": ["1155177883233439744"],
+        "options": [
+            {
+                "name": "title",
+                "type": 3,
+                "description": "Title of the poll",
+                "required": true
+            },
+            {
+                "name": "description",
+                "type": 3,
+                "description": "Description of the poll",
+                "required": true
+            },
+            {
+                "name": "fields",
+                "type": 3,
+                "description": "Options for the poll, separated by commas",
+                "required": true
+            },
+            {
+                "name": "image",
+                "type": 3,
+                "description": "Image for the poll embed (if none is specified, the default will be used)",
+                "required": false
+            }
+        ]
+    },
+    {
+        "name": "tickets",
+        "description": "Display the ticket options!",
+        "roles": ["1155177883233439744"]
+    },
+    {
+        "name": "reminder",
+        "description": "Set a reminder for later!",
+        "roles": ["1155177450913923092"],
+        "options": [
+            {
+                "name": "reminder",
+                "type": 3,
+                "description": "Here you can enter what you would like to be reminded about.",
+                "required": true
+            },
+            {
+                "name": "timer",
+                "type": 3,
+                "description": "When the bot should remind you (e.g., 10s = 10seconds, 10m = 10mins, 10h = 10hours, 10d = 10days)",
+                "required": true
+            }
+        ]
+    }   
+]
