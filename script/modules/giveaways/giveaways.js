@@ -56,8 +56,9 @@ const start_giveaway = async (interaction, title, description, fields, reaction,
 
 // Function to pick winners from participants
 const pick_winners = async (message_id, winners) => {
-    const participants = giveaway_participants.get(message_id);
-    if (!participants || participants.length === 0) {
+    const participants_set = giveaway_participants.get(message_id);
+    const participants = participants_set ? Array.from(participants_set) : [];
+    if (participants.length === 0) {
         return [];
     }
     const num_winners = Math.min(winners, participants.length);
