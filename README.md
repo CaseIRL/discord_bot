@@ -37,7 +37,9 @@ cd discord_bot
 #### Install dependencies
 
 ```bash
-npm install
+npm init -y
+npm install discord.js
+npm install mysql2
 ```
 
 ### Setup
